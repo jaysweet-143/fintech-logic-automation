@@ -1,26 +1,26 @@
-# Fintech Transaction & Compliance Automation 💳
+# Fintech & Telecom Logic Scripts 💳
 
-A collection of lightweight, production-grade Python scripts designed to automate logic parameters within digital wallet and instant loan ecosystems.
+A collection of lightweight Python scripts I built to automate basic transaction and compliance logic.
 
-## 📱 Project 1: Mobile Money Fee Calculator (`momo.py`)
-Automates the calculation of standard transaction tariffs while factoring in promotional customer cashback rewards.
-* **Core Logic:** Functional parameters, variable scaling, decimal rounding.
-* **Input:** Base transaction amount.
-* **Output:** Total rounded deduction from the digital wallet.
+## 📱 Project 1: MoMo Fee Calculator (`momo.py`)
+Calculates standard transaction fees while subtracting user cashback rewards.
+* **Logic:** Functions, basic math, and rounding numbers.
+* **Input:** Amount being sent.
+* **Output:** Total deduction from the user wallet.
 
-## 🚨 Project 2: Instant Loan Approval System (`loan.py`)
-A risk assessment engine that automatically evaluates user credit ratings and debt liabilities to grant or deny instant financial credit without human oversight.
-* **Core Logic:** Chained conditional branching (`if/elif/else`), Boolean evaluation states, logical `and` operators.
-* **Rules:** Requires a credit score >= 70 AND zero unpaid debts.
+## 🚨 Project 2: Instant Loan Approver (`loan.py`)
+An automated check that approves or rejects mini-loans based on account history.
+* **Logic:** If/Else conditional checking and Boolean logic.
+* **Rules:** Requires a credit score >= 70 and zero unpaid debts.
 
-## 📊 Project 3: Data Bundle Bonus Calculator (`bundle.py`)
-An optimization utility designed for telecommunication networks to automatically calculate and assign promotional bonus data parameters upon consumer packages.
-* **Core Logic:** Functional calculations, float arithmetic, precision decimal rounding.
-* **Input:** Base data bundle package purchased (GB).
-* **Output:** Precise rounded bonus data allowance credited to user profile.
+## 📊 Project 3: Data Bundle Bonus (`bundle.py`)
+Calculates a flat 15% bonus data allowance whenever a customer buys a bundle.
+* **Logic:** Floating-point math and precision rounding.
+* **Input:** Base data size purchased (GB).
+* **Output:** Final rounded bonus data credited.
 
-## 👑 Project 4: Premium User Account Tier Flag (`tier.py`)
-An automated business intelligence filter that categorizes consumer wallets based on cumulative transaction thresholds to facilitate quiet VIP account routing.
-* **Core Logic:** Compound logical statements (`and`), numerical inequality assertions, functional text-string output routing.
-* **Rules:** Flags account as "Premium" strictly if total volume > GHS 5,000 AND transactional frequency > 10.
+## 👑 Project 4: Account Tier Flag (`tier.py`)
+Automatically flags user wallets as "Premium" or "Standard" based on activity volume.
+* **Logic:** Compound logic tracking using the 'and' operator.
+* **Rules:** Flags as Premium if volume > GHS 5,000 AND transactions > 10.
 
