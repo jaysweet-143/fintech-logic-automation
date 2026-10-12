@@ -11,6 +11,5 @@ def calculate_total_momo_cost(amount_sent):
 #--- TEST CASES ---
 print("Testing GH₵ 250 transaction...")
 print("Total deducted from wallet:", calculate_total_momo_cost(250.00))
-#EXPECTED OUTPUT: 252.0
 
 
